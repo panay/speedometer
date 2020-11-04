@@ -1,0 +1,16 @@
+:host {
+  position: absolute;
+  display: inline-block;
+  width: 175px;
+  height: 105px;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  transform: translate3d(-50%, -10%, 0);
+  transform-origin: 50% calc(100% - 18px);
+  transition: transform 0.5s ease;
+
+  > img {
+    transform: rotate(-90deg);
+  }
+}
